@@ -12,7 +12,7 @@ box-sizing: border-box;
 top: 0;
 left: 0;
 width: 100vw;
-height: 5vh;
+height: 6vh;
 z-index: 1;
 }
 header h4{
@@ -34,7 +34,6 @@ nav{
 nav li{
     display: inline-block;
     width: 70px;
-    cursor: grab;
 }
 .businesspage{
     background-color: rgb(141, 131, 119);
@@ -211,7 +210,7 @@ nav li{
     position: absolute;
     font-family: 'PT Serif', serif;
     font-weight: bold;
-    color: rgb(26, 24, 23);
+    color: rgb(39, 36, 33);
     font-size: 15px;
     left: 680px;
     top: 4000px;
@@ -249,333 +248,38 @@ nav li{
 }
 /* pseudo element */
 nav ul li:hover{
-    background-color: rgba(85, 82, 68, 0.856);
+    color: rgb(70, 66, 64);
+    transition: all .6s ease-in-out;
+    cursor: pointer;
 }
+*:hover{
+    cursor: arrow;
+}
+.businesspage .goto:hover{
+    color: rgb(70, 66, 64);
+    transition: all .6s ease-in-out;
+    cursor: pointer;
+}
+.businesspage .browse:hover{
+    color: rgb(70, 66, 64);
+    transition: all .6s ease-in-out;
+    cursor: pointer;
+}
+
 /* responsive styles */
-@media screen and (max-width: 1000px){
+@media screen and (-webkit-min-device-pixel-ratio: 2){
+    /* css */
+    header h4{
+        font-size: 10px;
+    }
     nav{
-       font-size: 10px;
+        font-size: 5px;
+        right: 5%;
+        top: 7px;
     }
     nav li{
-        width: 50px;
+        width: 40px;
     }
-    header h4{
-        font-size: 17px;
-    }
-    .businesspage .lorem-three{
-        font-size: 15px;
-        left: 500px;
-        right: 10%;
-        top: 500px;
-    }
-    .businesspage .fashion{
-        font-size: 45px;
-        left: 200px;
-        right: 100px;
-        top: 800px;
-    }
-    .businesspage .lorem-one{
-        font-size: 15px;
-        left: 400px;
-        right: 10%;
-        top: 1050px;
-    }
-    .businesspage .Fashion-two{
-        font-size: 20px;
-        right: 100px;
-        left: 300px;
-        top: 1300px;
-    }
-    .businesspage .image3{
-        width: 700px;
-        height: 500px;
-        left: 150px;
-        right: 10%;
-        top: 1500px;
-    }
-    .businesspage .image4{
-        width: 200px;
-        height: 300px;
-        top: 2300px;
-        left: 45%;
-    }
-}
-@media screen and (max-width: 1024px){
-    .businesspage .welcomeNote{
-        font-size: 50px;
-     }
-     .businesspage .fashion{
-        font-size: 50px;
-        left: 400px;
-        right: 100px;
-        top: 800px;
-    }
-     .businesspage .image2{
-        width: 150px;
-        height: 250px;
-        right: 100px;
-        top: 100px;
-    }
-    .businesspage .image1{
-        width: 400px;
-        height: 500px;
-        top: 170px;
-    }
-    .businesspage .lorem-one{
-        font-size: 15px;
-        left: 500px;
-        right: 10%;
-        top: 1100px;
-    }
-    .businesspage .Fashion-two{
-        font-size: 20px;
-        right: 100px;
-        left: 400px;
-        top: 1300px;
-    }
-    .businesspage .image4{
-        width: 250px;
-        height: 300px;
-        top: 2300px;
-        left: 40%;
-    }
-    .businesspage .image3{
-        width: 600px;
-        height: 500px;
-        top: 1550px;
-        left: 200px;
-        right: 100px;
-    }
-    .businesspage .image5{
-        width: 310px;
-        height: 500px;
-        top: 2600px;
-        left: 10%;
-    }
-    .businesspage .image6{
-        width: 250px;
-        height: 300px;
-        top: 2600px;
-        right: 11%;
-    }
-    .businesspage .fresh{
-        font-size: 40px;
-        left: 100px;
-        top: 2400px;
-    }
-    .businesspage .lorem-two{
-        font-weight: bold;
-        font-size: 13px;
-        left: 51%;
-        right: 10%;
-        top: 2950px;
-    }
-    .businesspage .browse{
-        color: rgb(26, 24, 23);
-        font-size: 15px;
-        left: 680px;
-        top: 3070px;
-    }
-    .businesspage .suits1{
-        width: 150px;
-        height: 140px;
-        left: 100px;
-        top: 3400px;
-    }
-    .businesspage .suits2{
-        width: 150px;
-        height: 170px;
-        left: 100px;
-        top: 3550px;
-    }
-    .businesspage .suits4{
-        left: 260px;
-        top: 3400px;
-        height: 320px;
-        width: 220px;
-    }
-    .businesspage .comfysuits{
-        font-size: 30px;
-        left: 51%;
-        right: 10%;
-        top: 3400px;
-    }
-    .businesspage .lorem-four{
-        font-size: 10px;
-        right: 10%;
-        left: 51%;
-        top: 3500px;
-    }
-    .businesspage .goto{
-        font-size: 15px;
-        right: 10%;
-        left: 680px;
-        top: 3700px;
-    }
-    .businesspage .image7{
-        width: 350px;
-        height: 250px;
-        top: 4100px;
-        left: 100px;
-    }
-    .businesspage .image8{
-        width: 400px;
-        height: 400px;
-        top: 3950px;
-        left: 51%;
-        right: 10%;
-    }
-    .businesspage .follow{
-        font-size: 40px;
-        left: 100px;
-        top: 3950px;
-    }
-    .businesspage .copyright{
-        top: 4600px;
-    }
-}
-@media screen and (max-width: 780px){
-    .businesspage .welcomeNote{
-        left: 70px;
-        top: 40px;
-        font-size: 30px;
-    }
-    .businesspage .image2{
-        width: 150px;
-        height: 200px;
-        right: 70px;
-        top: 80px;
-    }
-    .businesspage .image1{
-        width: 300px;
-        height: 400px;
-        top: 130px;
-    }
-    .businesspage .lorem-three{
-        font-size: 15px;
-        left: 350px;
-        right: 70px;
-        top: 400px;
-    }
-    .businesspage .fashion{
-        font-size: 30px;
-        left: 300px;
-        right: 100px;
-        top: 700px;
-    }
-    .businesspage .lorem-one{
-        font-size: 15px;
-        left: 350px;
-        right: 70px;
-        top: 900px;
-    }
-    .businesspage .Fashion-two{
-        font-size: 20px;
-        right: 70px;
-        left: 300px;
-        top: 1200px;
-    }
-    .businesspage .image3{
-        width: 400px;
-        height: 300px;
-        right: 150px;
-        top: 1450px;
-    }
-    .businesspage .image4{
-        width: 100px;
-        height: 150px;
-        top: 2000px;
-        left: 380px;
-    }
-    .businesspage .image5{
-        width: 250px;
-        height: 300px;
-        top: 2150px;
-        left: 100px;
-    }
-    .businesspage .image6{
-        width: 100px;
-        height: 150px;
-        top: 2150px;
-        right: 125px;
-    }
-    .businesspage .fresh{
-        font-size: 30px;
-        left: 100px;
-        top: 2050px;
-    }
-    .businesspage .lorem-two{
-        font-size: 10px;
-        right: 70px;
-        left: 51%;
-        top: 2350px;
-    }
-    .businesspage .browse{
-        font-size: 10px;
-        right: 70px;
-        top: 2440px;
-        left: 550px;
-    }
-    .businesspage .suits1{
-        width: 100px;
-        height: 150px;
-        left: 70px;
-        top: 2650px;
-    }
-    .businesspage .suits2{
-        width: 100px;
-        height: 150px;
-        left: 70px;
-        top: 2810px;
-    }
-    .businesspage .suits4{
-        left: 180px;
-        top: 2650px;
-        height: 300px;
-        width: 150px;
-    }
-    .businesspage .comfysuits{
-        font-size: 30px;
-        left: 51%;
-        right: 10%;
-        top: 2650px;
-    }
-    .businesspage .goto{
-        font-size: 10px;
-        right: 70px;
-        left: 550px;
-        top: 2920px;
-    }
-    .businesspage .lorem-four{
-        font-size: 10px;
-        right: 10%;
-        left: 51%;
-        top: 2750px;
-    }
-    .businesspage .follow{
-        font-size: 30px;
-        left: 70px;
-        top: 3200px;
-    }
-    .businesspage .image7{
-        width: 250px;
-        height: 150px;
-        top: 3350px;
-        left: 70px;
-    }
-    .businesspage .image8{
-        width: 300px;
-        height: 280px;
-        top: 3220px;
-        right: 70px;
-    }
-    .businesspage .copyright{
-        font-size: 20px;
-        top: 3800px;
-        left: 250px;
-    }
-}
-@media screen and (max-width: 380px){
     .businesspage .welcomeNote{
         left: 20px;
         top: 40px;
@@ -638,7 +342,7 @@ nav ul li:hover{
         width: 70px;
         height: 90px;
         top: 940px;
-        right: 80px;
+        left: 230px;
     }
     .businesspage .fresh{
         font-size: 10px;
@@ -682,7 +386,7 @@ nav ul li:hover{
         top: 1250px;
     }
     .businesspage .lorem-four{
-        font-size: 7px;
+        font-size: 5.2px;
         right: 10%;
         left: 180px;
         top: 1280px;
