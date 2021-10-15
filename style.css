@@ -1,0 +1,718 @@
+body, ul, li, h4{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+header{
+background-color: rgb(141,131,119);
+padding: 2px 1px;
+margin: 0 auto;
+position: fixed;
+box-sizing: border-box;
+top: 0;
+left: 0;
+width: 100vw;
+height: 5vh;
+z-index: 1;
+}
+header h4{
+    color: rgb(39, 36, 33);
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    text-align: center;
+}
+nav{
+    position: absolute;
+    text-align: right;
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(39, 36, 33);
+    right: 5%;
+    top: 14px;
+}
+nav li{
+    display: inline-block;
+    width: 70px;
+    cursor: grab;
+}
+.businesspage{
+    background-color: rgb(141, 131, 119);
+    position: relative;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.businesspage .welcomeNote{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
+    color: rgb(39, 36, 33);
+}
+.businesspage .lorem-three{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: rgb(39, 36, 33);
+    font-size: 15px;
+    left: 550px;
+    right: 10%;
+    top: 500px;
+}
+.businesspage .image2{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    right: 100px;
+    top: 100px;
+}
+.businesspage .image1{
+    position: relative;
+    width: 450px;
+    height: 550px;
+    top: 170px;
+}
+.businesspage .fashion{
+    position: absolute;
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
+    color: rgb(39, 36, 33);
+    left: 400px;
+    right: 100px;
+    top: 800px;
+}
+.businesspage .lorem-one{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color:rgb(39, 36, 33);
+    font-size: 15px;
+    left: 550px;
+    right: 10%;
+    top: 1100px;
+}
+.businesspage .Fashion-two{
+    position: absolute;
+    border: 4px solid rgb(39, 36, 33);
+    border-top: hidden;
+    border-bottom: hidden;
+    border-right: hidden;
+    padding: 10px 15px;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: rgb(39, 36, 33);
+    font-size: 20px;
+    right: 100px;
+    left: 600px;
+    top: 1300px;
+}
+.businesspage .image3{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    left: 280px;
+    top: 1450px;
+}
+.businesspage .image4{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 2300px;
+    left: 45%;
+}
+.businesspage .image5{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    top: 2700px;
+    left: 7.5%;
+}
+.businesspage .image6{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 2700px;
+    right: 10%;
+}
+.businesspage .fresh{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    color: rgb(39, 36, 33);
+    left: 100px;
+    top: 2400px;
+}
+.businesspage .lorem-two{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: rgb(39, 36, 33);
+    font-size: 15px;
+    left: 51%;
+    right: 10%;
+    top: 3200px;
+}
+.businesspage .browse{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: rgb(26, 24, 23);
+    font-size: 15px;
+    left: 680px;
+    right: 10%;
+    top: 3290px;
+}
+.businesspage .suits1{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 100px;
+    top: 3600px;
+}
+.businesspage .suits2{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 100px;
+    top: 3820px;
+}
+.businesspage .suits4{
+    position: absolute;
+    left: 270px;
+    top: 3600px;
+    height: 420px;
+}
+.businesspage .comfysuits{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1px;
+    color: rgb(39, 36, 33);
+    font-size: 40px;
+    left: 51%;
+    right: 10%;
+    top: 3600px;
+}
+.businesspage .lorem-four{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'PT Serif', serif;
+    color: rgb(39, 36, 33);
+    font-weight: bold;
+    right: 10%;
+    left: 51%;
+    top: 3680px;
+}
+.businesspage .goto{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    color: rgb(26, 24, 23);
+    font-size: 15px;
+    left: 680px;
+    top: 4000px;
+}
+.businesspage .follow{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    color: rgb(39, 36, 33);
+    font-size: 40px;
+    left: 100px;
+    top: 4150px;
+}
+.businesspage .image7{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 4350px;
+    left: 100px;
+}
+.businesspage .image8{
+    position: absolute;
+    width: 530px;
+    height: 500px;
+    top: 4150px;
+    left: 51%;
+    right: 10%;
+}
+.businesspage .copyright{
+    position: absolute;
+    font-family: 'PT Serif', serif;
+    color: rgb(39, 36, 33);
+    font-size: 25px;
+    top: 4900px;
+    left: 40%;
+}
+/* pseudo element */
+nav ul li:hover{
+    background-color: rgba(85, 82, 68, 0.856);
+}
+/* responsive styles */
+@media screen and (max-width: 1000px){
+    nav{
+       font-size: 10px;
+    }
+    nav li{
+        width: 50px;
+    }
+    header h4{
+        font-size: 17px;
+    }
+    .businesspage .lorem-three{
+        font-size: 15px;
+        left: 500px;
+        right: 10%;
+        top: 500px;
+    }
+    .businesspage .fashion{
+        font-size: 45px;
+        left: 200px;
+        right: 100px;
+        top: 800px;
+    }
+    .businesspage .lorem-one{
+        font-size: 15px;
+        left: 400px;
+        right: 10%;
+        top: 1050px;
+    }
+    .businesspage .Fashion-two{
+        font-size: 20px;
+        right: 100px;
+        left: 300px;
+        top: 1300px;
+    }
+    .businesspage .image3{
+        width: 700px;
+        height: 500px;
+        left: 150px;
+        right: 10%;
+        top: 1500px;
+    }
+    .businesspage .image4{
+        width: 200px;
+        height: 300px;
+        top: 2300px;
+        left: 45%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .businesspage .welcomeNote{
+        font-size: 50px;
+     }
+     .businesspage .fashion{
+        font-size: 50px;
+        left: 400px;
+        right: 100px;
+        top: 800px;
+    }
+     .businesspage .image2{
+        width: 150px;
+        height: 250px;
+        right: 100px;
+        top: 100px;
+    }
+    .businesspage .image1{
+        width: 400px;
+        height: 500px;
+        top: 170px;
+    }
+    .businesspage .lorem-one{
+        font-size: 15px;
+        left: 500px;
+        right: 10%;
+        top: 1100px;
+    }
+    .businesspage .Fashion-two{
+        font-size: 20px;
+        right: 100px;
+        left: 400px;
+        top: 1300px;
+    }
+    .businesspage .image4{
+        width: 250px;
+        height: 300px;
+        top: 2300px;
+        left: 40%;
+    }
+    .businesspage .image3{
+        width: 600px;
+        height: 500px;
+        top: 1550px;
+        left: 200px;
+        right: 100px;
+    }
+    .businesspage .image5{
+        width: 310px;
+        height: 500px;
+        top: 2600px;
+        left: 10%;
+    }
+    .businesspage .image6{
+        width: 250px;
+        height: 300px;
+        top: 2600px;
+        right: 11%;
+    }
+    .businesspage .fresh{
+        font-size: 40px;
+        left: 100px;
+        top: 2400px;
+    }
+    .businesspage .lorem-two{
+        font-weight: bold;
+        font-size: 13px;
+        left: 51%;
+        right: 10%;
+        top: 2950px;
+    }
+    .businesspage .browse{
+        color: rgb(26, 24, 23);
+        font-size: 15px;
+        left: 680px;
+        top: 3070px;
+    }
+    .businesspage .suits1{
+        width: 150px;
+        height: 140px;
+        left: 100px;
+        top: 3400px;
+    }
+    .businesspage .suits2{
+        width: 150px;
+        height: 170px;
+        left: 100px;
+        top: 3550px;
+    }
+    .businesspage .suits4{
+        left: 260px;
+        top: 3400px;
+        height: 320px;
+        width: 220px;
+    }
+    .businesspage .comfysuits{
+        font-size: 30px;
+        left: 51%;
+        right: 10%;
+        top: 3400px;
+    }
+    .businesspage .lorem-four{
+        font-size: 10px;
+        right: 10%;
+        left: 51%;
+        top: 3500px;
+    }
+    .businesspage .goto{
+        font-size: 15px;
+        right: 10%;
+        left: 680px;
+        top: 3700px;
+    }
+    .businesspage .image7{
+        width: 350px;
+        height: 250px;
+        top: 4100px;
+        left: 100px;
+    }
+    .businesspage .image8{
+        width: 400px;
+        height: 400px;
+        top: 3950px;
+        left: 51%;
+        right: 10%;
+    }
+    .businesspage .follow{
+        font-size: 40px;
+        left: 100px;
+        top: 3950px;
+    }
+    .businesspage .copyright{
+        top: 4600px;
+    }
+}
+@media screen and (max-width: 780px){
+    .businesspage .welcomeNote{
+        left: 70px;
+        top: 40px;
+        font-size: 30px;
+    }
+    .businesspage .image2{
+        width: 150px;
+        height: 200px;
+        right: 70px;
+        top: 80px;
+    }
+    .businesspage .image1{
+        width: 300px;
+        height: 400px;
+        top: 130px;
+    }
+    .businesspage .lorem-three{
+        font-size: 15px;
+        left: 350px;
+        right: 70px;
+        top: 400px;
+    }
+    .businesspage .fashion{
+        font-size: 30px;
+        left: 300px;
+        right: 100px;
+        top: 700px;
+    }
+    .businesspage .lorem-one{
+        font-size: 15px;
+        left: 350px;
+        right: 70px;
+        top: 900px;
+    }
+    .businesspage .Fashion-two{
+        font-size: 20px;
+        right: 70px;
+        left: 300px;
+        top: 1200px;
+    }
+    .businesspage .image3{
+        width: 400px;
+        height: 300px;
+        right: 150px;
+        top: 1450px;
+    }
+    .businesspage .image4{
+        width: 100px;
+        height: 150px;
+        top: 2000px;
+        left: 380px;
+    }
+    .businesspage .image5{
+        width: 250px;
+        height: 300px;
+        top: 2150px;
+        left: 100px;
+    }
+    .businesspage .image6{
+        width: 100px;
+        height: 150px;
+        top: 2150px;
+        right: 125px;
+    }
+    .businesspage .fresh{
+        font-size: 30px;
+        left: 100px;
+        top: 2050px;
+    }
+    .businesspage .lorem-two{
+        font-size: 10px;
+        right: 70px;
+        left: 51%;
+        top: 2350px;
+    }
+    .businesspage .browse{
+        font-size: 10px;
+        right: 70px;
+        top: 2440px;
+        left: 550px;
+    }
+    .businesspage .suits1{
+        width: 100px;
+        height: 150px;
+        left: 70px;
+        top: 2650px;
+    }
+    .businesspage .suits2{
+        width: 100px;
+        height: 150px;
+        left: 70px;
+        top: 2810px;
+    }
+    .businesspage .suits4{
+        left: 180px;
+        top: 2650px;
+        height: 300px;
+        width: 150px;
+    }
+    .businesspage .comfysuits{
+        font-size: 30px;
+        left: 51%;
+        right: 10%;
+        top: 2650px;
+    }
+    .businesspage .goto{
+        font-size: 10px;
+        right: 70px;
+        left: 550px;
+        top: 2920px;
+    }
+    .businesspage .lorem-four{
+        font-size: 10px;
+        right: 10%;
+        left: 51%;
+        top: 2750px;
+    }
+    .businesspage .follow{
+        font-size: 30px;
+        left: 70px;
+        top: 3200px;
+    }
+    .businesspage .image7{
+        width: 250px;
+        height: 150px;
+        top: 3350px;
+        left: 70px;
+    }
+    .businesspage .image8{
+        width: 300px;
+        height: 280px;
+        top: 3220px;
+        right: 70px;
+    }
+    .businesspage .copyright{
+        font-size: 20px;
+        top: 3800px;
+        left: 250px;
+    }
+}
+@media screen and (max-width: 380px){
+    .businesspage .welcomeNote{
+        left: 20px;
+        top: 40px;
+        font-size: 15px;
+    }
+    .businesspage .image2{
+        width: 90px;
+        height: 100px;
+        right: 20px;
+        top: 80px;
+    }
+    .businesspage .image1{
+        width: 150px;
+        height: 200px;
+        top: 80px;
+    }
+    .businesspage .lorem-three{
+        font-size: 8px;
+        left: 180px;
+        right: 20px;
+        top: 220px;
+    }
+    .businesspage .fashion{
+        font-size: 15px;
+        left: 100px;
+        right: 20px;
+        top: 330px;
+    }
+    .businesspage .lorem-one{
+        font-size: 8px;
+        left: 160px;
+        right: 50px;
+        top: 400px;
+    }
+    .businesspage .Fashion-two{
+        font-size: 8px;
+        right: 70px;
+        left: 100px;
+        top: 550px;
+    }
+    .businesspage .image3{
+        width: 150px;
+        height: 90px;
+        left: 120px;
+        top: 650px;
+    }
+    .businesspage .image4{
+        width: 70px;
+        height: 90px;
+        top: 850px;
+        left: 150px;
+    }
+    .businesspage .image5{
+        width: 120px;
+        height: 180px;
+        top: 940px;
+        left: 30px;
+    }
+    .businesspage .image6{
+        width: 70px;
+        height: 90px;
+        top: 940px;
+        right: 80px;
+    }
+    .businesspage .fresh{
+        font-size: 10px;
+        left: 30px;
+        top: 880px;
+    }
+    .businesspage .lorem-two{
+        font-size: 7px;
+        right: 50px;
+        left: 180px;
+        top: 1050px;
+    }
+    .businesspage .browse{
+        font-size: 6px;
+        right: 50px;
+        top: 1120px;
+        left: 10px;
+    }
+    .businesspage .suits1{
+    width: 50px;
+    height: 70px;
+    left: 30px;
+    top: 1250px;
+    }
+    .businesspage .suits2{
+        width: 50px;
+        height: 70px;
+        left: 30px;
+        top: 1325px;
+    }
+    .businesspage .suits4{
+        width: 75px;
+        height: 145px;
+        left: 85px;
+        top: 1250px;
+    }
+    .businesspage .comfysuits{
+        font-size: 15px;
+        left: 180px;
+        right: 10%;
+        top: 1250px;
+    }
+    .businesspage .lorem-four{
+        font-size: 7px;
+        right: 10%;
+        left: 180px;
+        top: 1280px;
+    }
+    .businesspage .goto{
+        font-size: 6px;
+        right: 50px;
+        left: 10px;
+        top: 1385px;
+    }
+    .businesspage .follow{
+        font-size: 15px;
+        left: 30px;
+        top: 1500px;
+    }
+    .businesspage .image7{
+        width: 140px;
+        height: 90px;
+        top: 1550px;
+        left: 30px;
+    }
+    .businesspage .image8{
+        width: 150px;
+        height: 180px;
+        top: 1500px;
+        right: 20px;
+    }
+    .businesspage .copyright{
+        font-size: 10px;
+        top: 1800px;
+        left: 130px;
+    }
+}
